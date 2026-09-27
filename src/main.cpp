@@ -492,6 +492,8 @@ static int set_locales(void)
 
 int main(int argc, char *argv[])
 {
+	MSG_WARNING("%s", "THIS PROJECT IS NOT MAINTAINED ANYMORE.\nPlease read https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/wiki/end-of-project for more details.");
+
 	/* Parse arguments */
 	std::list<std::string> args(argv, argv + argc);
 	parse_arguments(args);

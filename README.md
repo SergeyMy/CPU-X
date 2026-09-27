@@ -19,8 +19,8 @@ CPU-X is a system profiling and monitoring application (similar to [CPU-Z for Wi
 This software is written in C++ and built with [CMake](https://www.cmake.org/) tool.  
 It can be used in graphical mode by using GTK or in text-based mode by using NCurses. A dump mode is present from command line.  
 
-> [!IMPORTANT]
-> There are no milestones for this project, read [this announcement](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/wiki/future-of-project) for more details.
+> [!CAUTION]
+> This project is not maintained anymore by the lead developer, read [this announcement](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/wiki/end-of-project) for more details.
 
 ***
 
@@ -41,7 +41,7 @@ It can be used in graphical mode by using GTK or in text-based mode by using NCu
   - [Usage](#usage)
   - [Wiki](#wiki)
   - [Bugs/Improvements/Request features](#bugsimprovementsrequest-features)
-  - [Translate CPU-X](#translate-cpu-x)
+  - [Contribute](#contribute)
 
 ***
 
@@ -152,11 +152,10 @@ More informations are available on Wiki, like screenshots, troubleshooting and t
 
 ## Bugs/Improvements/Request features
 
-Please [open a new issue](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/issues/new/choose) and fill the appropriate template. Note that text between `<!-- ... -->` is not displayed.  
-> [!WARNING]
-> Incomplete reports may be closed without justification.
+New issues are not accepted since the repository is archived.
 
-## Translate CPU-X
+## Contribute
 
-If you want to translate CPU-X in your native tongue, please visit the [Weblate page](https://hosted.weblate.org/engage/cpu-x/?utm_source=widget).  
-POT file is updated on each changes thanks to [Update POT file workflow](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/actions?query=workflow%3A%22Update+POT+file%22).
+If someone is interested by maintaining an **active fork**, you can contact me to my email address (refer to `git log`).
+
+Refer to [CONTRIBUTING](CONTRIBUTING.md) file for useful information.
